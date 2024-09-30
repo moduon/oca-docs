@@ -1,0 +1,10 @@
+# Changes here will be overwritten by Copier; do NOT edit manually
+_commit: v0.21.0-2-g4ecd81a
+_src_path: https://gitlab.com/moduon/precommix
+ansible: false
+copier_template: false
+gitlab_ci: none
+js: true
+nix: true
+python: false
+terraform: false
