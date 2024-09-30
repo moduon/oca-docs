@@ -7,4 +7,7 @@ Docs are written in [Markdown format](https://www.markdownguide.org/) and render
 Docs for a module named `example_module` should exist in the folder
 `docs/modules/example_module/index.md`.
 
+You can use [Decap CMS](https://decapcms.org/) to contribute changes to docs. Just click
+in [✏️ CMS](/admin/).
+
 All contributions are covered by the [CC-BY-4.0 license](./LICENSE.txt).
