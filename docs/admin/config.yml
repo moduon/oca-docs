@@ -2,6 +2,7 @@ backend:
   branch: main
   name: github
   repo: moduon/oca-docs
+  squash_merges: true
   use_graphql: true
 
 media_folder: docs/img
