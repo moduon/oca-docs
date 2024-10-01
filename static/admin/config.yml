@@ -6,22 +6,25 @@ backend:
   squash_merges: true
   use_graphql: true
 
-media_folder: docs/img
-public_folder: /img
+media_folder: static/media
+public_folder: /media
 publish_mode: editorial_workflow
 
 collections:
   - name: page
     label: Pages
-    folder: docs
+    folder: content
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: module
     label: Modules
-    folder: docs/module
+    folder: content/module
     slug: "{{ technical_name }}"
     fields:
-      - { label: "Technical name", name: "technical_name", widget: "string" }
+      - { label: "Technical name", name: "slug", widget: "string" }
       - { label: "Human-readable name", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Description", name: "body", widget: "markdown" }
+      - { label: "Usage", name: "usage", widget: "markdown" }
+      - { label: "Context", name: "context", widget: "markdown" }
+      - { label: "Installation", name: "install", widget: "markdown" }

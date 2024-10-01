@@ -1,1 +1,1 @@
-docs/index.md
+content/_index.md

@@ -1,4 +1,6 @@
-# Welcome to OCA Docs
++++
+title = 'Welcome to OCA docs'
++++
 
 Here you will find documentation for some [OCA](https://odoo-community.org/) modules.
 Hopefully, some day, for all of them.

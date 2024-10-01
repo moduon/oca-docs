@@ -1,0 +1,8 @@
+baseURL = 'https://moduon-oca-docs-prototype.netlify.app/'
+languageCode = 'en-us'
+sectionPagesMenu = 'main'
+theme = ["github.com/McShelby/hugo-theme-relearn"]
+title = 'OCA Docs'
+
+[outputs]
+home = ['html', 'rss', 'search']

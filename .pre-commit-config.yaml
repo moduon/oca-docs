@@ -13,6 +13,7 @@ repos:
       # Multi-lang
       - id: no-copier-garbage
       - id: prettier
+        exclude: layouts/.*|go.*
       - id: taplo
       - id: restructuredtext-lint
       - id: check-added-large-files

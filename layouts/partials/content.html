@@ -1,0 +1,24 @@
+{{ .Content }}
+
+<!-- Print some metadata from font-matter in module pages -->
+{{ if eq .Layout "module" }}
+    {{ if .Params.usage }}
+        <h2>Usage</h2>
+        {{ .Params.usage }}
+    {{ end }}
+
+    {{ if .Params.context }}
+        <h2>Context</h2>
+        {{ .Params.context }}
+    {{ end }}
+
+    {{ if .Params.install }}
+        <h2>Installation</h2>
+        {{ .Params.install }}
+    {{ end }}
+
+    {{ if .Params.configuration }}
+        <h2>Configuration</h2>
+        {{ .Params.configuration }}
+    {{ end }}
+{{ end }}

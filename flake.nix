@@ -29,7 +29,8 @@
       imports = [precommix.flakeModules.devshell];
       perSystem = {pkgs, ...}: {
         devshells.default.commands = [
-          {package = pkgs.python3Packages.mkdocs;}
+          {package = pkgs.go;}
+          {package = pkgs.hugo;}
         ];
       };
     };

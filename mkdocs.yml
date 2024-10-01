@@ -1,8 +1,0 @@
-site_name: OCA Docs
-nav:
-  - Home: index.md
-  - Contributing: CONTRIBUTING.md
-  - ✏️ CMS: admin/index.html
-theme:
-  name: mkdocs
-  color_mode: auto
