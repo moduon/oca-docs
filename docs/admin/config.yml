@@ -13,7 +13,7 @@ publish_mode: editorial_workflow
 collections:
   - name: page
     label: Pages
-    folder: docs/page
+    folder: docs
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
