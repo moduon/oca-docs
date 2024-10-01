@@ -25,6 +25,10 @@ collections:
       - { label: "Technical name", name: "slug", widget: "string" }
       - { label: "Human-readable name", name: "title", widget: "string" }
       - { label: "Description", name: "body", widget: "markdown" }
-      - { label: "Usage", name: "usage", widget: "markdown" }
-      - { label: "Context", name: "context", widget: "markdown" }
-      - { label: "Installation", name: "install", widget: "markdown" }
+      - { label: "Usage", name: "usage", widget: "markdown", required: false }
+      - { label: "Context", name: "context", widget: "markdown", required: false }
+      - { label: "Installation", name: "install", widget: "markdown", required: false }
+      - label: "Configuration"
+        name: "configure"
+        widget: "markdown"
+        required: false
