@@ -7,6 +7,7 @@ publish = "public"
 # Get this from `nix develop -c hugo version` in project devshell
 HUGO_VERSION = "0.126.1"
 
-# DOCS https://docs.netlify.com/configure-builds/manage-dependencies/#go
-# Get this from `nix develop -c go version` in project devshell
-GO_VERSION = "1.22.6"
+# DOCS https://docs.netlify.com/configure-builds/manage-dependencies/#go Get
+# this from `nix develop -c go version` in project devshell, but only
+# MAJOR.MINOR format is allowed
+GO_VERSION = "1.22"
