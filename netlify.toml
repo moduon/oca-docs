@@ -1,0 +1,8 @@
+[build]
+command = "hugo"
+publish = "public"
+
+[build.environment]
+# DOCS https://docs.netlify.com/frameworks/hugo/#hugo-version
+# Get this from `nix develop -c hugo version` in project devshell
+HUGO_VERSION = "0.126.1"
