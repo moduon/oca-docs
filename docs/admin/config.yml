@@ -3,7 +3,7 @@ backend:
   name: github
   open_authoring: true
   repo: moduon/oca-docs
-  site_domain: moduon-oca-docs-prototype.netlify.app
+  site_domain: moduon.github.io
   squash_merges: true
   use_graphql: true
 
