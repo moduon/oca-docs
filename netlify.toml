@@ -6,3 +6,7 @@ publish = "public"
 # DOCS https://docs.netlify.com/frameworks/hugo/#hugo-version
 # Get this from `nix develop -c hugo version` in project devshell
 HUGO_VERSION = "0.126.1"
+
+# DOCS https://docs.netlify.com/configure-builds/manage-dependencies/#go
+# Get this from `nix develop -c go version` in project devshell
+GO_VERSION = "1.22.6"
