@@ -1,6 +1,6 @@
-+++
-title = 'Contribution guide'
-+++
+---
+title: Contribution guide
+---
 
 Docs are written in [Markdown format](https://www.markdownguide.org/) and rendered with
 [Hugo](https://gohugo.io/).
