@@ -4,21 +4,21 @@
 {{ if eq .Layout "module" }}
     {{ if .Params.usage }}
         <h2>Usage</h2>
-        {{ .Params.usage }}
+        {{ .Params.usage | .RenderString }}
     {{ end }}
 
     {{ if .Params.context }}
         <h2>Context</h2>
-        {{ .Params.context }}
+        {{ .Params.context | .RenderString }}
     {{ end }}
 
     {{ if .Params.install }}
         <h2>Installation</h2>
-        {{ .Params.install }}
+        {{ .Params.install | .RenderString }}
     {{ end }}
 
     {{ if .Params.configuration }}
         <h2>Configuration</h2>
-        {{ .Params.configuration }}
+        {{ .Params.configuration | .RenderString }}
     {{ end }}
 {{ end }}
