@@ -13,7 +13,7 @@ usage: >-
 
   ![Partner Form Fax Field](/media/partner_form_fax.png)
 context: ""
-install: ""
+install: None!
 configure: ""
 ---
 
